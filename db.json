@@ -1,0 +1,507 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john.doe",
+      "email": "john.doe@dpworld.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "companyCode": "DPWORLD",
+      "role": "Employee",
+      "department": "Operations",
+      "quickPin": "1234",
+      "password": "password123",
+      "isActive": true,
+      "createdAt": "2024-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "username": "jane.smith",
+      "email": "jane.smith@dpworld.com",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "companyCode": "DPWORLD",
+      "role": "Manager",
+      "department": "HR",
+      "quickPin": "5678",
+      "password": "password456",
+      "isActive": true,
+      "createdAt": "2024-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "username": "demo",
+      "email": "demo@dpworld.com",
+      "firstName": "Demo",
+      "lastName": "User",
+      "companyCode": "DPWORLD",
+      "role": "Employee",
+      "department": "IT",
+      "quickPin": "0000",
+      "password": "demo",
+      "isActive": true,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "userId": "1",
+      "type": "checked-in",
+      "timestamp": "2024-12-20T09:00:00.000Z",
+      "location": {
+        "coords": {
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "address": {
+          "name": "DP World Head Office",
+          "street": "Sheikh Zayed Road",
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "type": "checked-out",
+      "timestamp": "2024-12-20T17:30:00.000Z",
+      "location": {
+        "coords": {
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "address": {
+          "name": "DP World Head Office",
+          "street": "Sheikh Zayed Road",
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "type": "checked-in",
+      "timestamp": "2024-12-19T08:45:00.000Z",
+      "location": {
+        "coords": {
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "address": {
+          "name": "DP World Head Office",
+          "street": "Sheikh Zayed Road",
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "type": "checked-out",
+      "timestamp": "2024-12-19T18:00:00.000Z",
+      "location": {
+        "coords": {
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "address": {
+          "name": "DP World Head Office",
+          "street": "Sheikh Zayed Road",
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "type": "checked-in",
+      "timestamp": "2024-12-20T08:30:00.000Z",
+      "location": {
+        "coords": {
+          "latitude": 25.2048,
+          "longitude": 55.2708
+        },
+        "address": {
+          "name": "DP World Head Office",
+          "street": "Sheikh Zayed Road",
+          "city": "Dubai",
+          "country": "UAE"
+        }
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+      "createdAt": "2024-12-20T08:00:00.000Z",
+      "expiresAt": "2024-12-21T08:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229026138",
+      "userId": "1",
+      "token": "token_1750229026138",
+      "createdAt": "2025-06-18T06:43:46.138Z",
+      "expiresAt": "2025-06-19T06:43:46.138Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229031221",
+      "userId": "1",
+      "token": "token_1750229031221",
+      "createdAt": "2025-06-18T06:43:51.221Z",
+      "expiresAt": "2025-06-19T06:43:51.221Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229231319",
+      "userId": "1",
+      "token": "token_1750229231319",
+      "createdAt": "2025-06-18T06:47:11.319Z",
+      "expiresAt": "2025-06-19T06:47:11.319Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229233343",
+      "userId": "1",
+      "token": "token_1750229233343",
+      "createdAt": "2025-06-18T06:47:13.343Z",
+      "expiresAt": "2025-06-19T06:47:13.343Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229234469",
+      "userId": "1",
+      "token": "token_1750229234469",
+      "createdAt": "2025-06-18T06:47:14.469Z",
+      "expiresAt": "2025-06-19T06:47:14.469Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229235364",
+      "userId": "1",
+      "token": "token_1750229235364",
+      "createdAt": "2025-06-18T06:47:15.364Z",
+      "expiresAt": "2025-06-19T06:47:15.364Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229236737",
+      "userId": "1",
+      "token": "token_1750229236737",
+      "createdAt": "2025-06-18T06:47:16.737Z",
+      "expiresAt": "2025-06-19T06:47:16.737Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229271101",
+      "userId": "1",
+      "token": "token_1750229271101",
+      "createdAt": "2025-06-18T06:47:51.101Z",
+      "expiresAt": "2025-06-19T06:47:51.101Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229272038",
+      "userId": "1",
+      "token": "token_1750229272038",
+      "createdAt": "2025-06-18T06:47:52.038Z",
+      "expiresAt": "2025-06-19T06:47:52.038Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229272191",
+      "userId": "1",
+      "token": "token_1750229272191",
+      "createdAt": "2025-06-18T06:47:52.191Z",
+      "expiresAt": "2025-06-19T06:47:52.191Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229272370",
+      "userId": "1",
+      "token": "token_1750229272370",
+      "createdAt": "2025-06-18T06:47:52.370Z",
+      "expiresAt": "2025-06-19T06:47:52.370Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229273240",
+      "userId": "1",
+      "token": "token_1750229273240",
+      "createdAt": "2025-06-18T06:47:53.240Z",
+      "expiresAt": "2025-06-19T06:47:53.240Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229274254",
+      "userId": "1",
+      "token": "token_1750229274254",
+      "createdAt": "2025-06-18T06:47:54.254Z",
+      "expiresAt": "2025-06-19T06:47:54.254Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229275915",
+      "userId": "1",
+      "token": "token_1750229275915",
+      "createdAt": "2025-06-18T06:47:55.915Z",
+      "expiresAt": "2025-06-19T06:47:55.915Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229278691",
+      "userId": "1",
+      "token": "token_1750229278691",
+      "createdAt": "2025-06-18T06:47:58.691Z",
+      "expiresAt": "2025-06-19T06:47:58.691Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229279885",
+      "userId": "1",
+      "token": "token_1750229279885",
+      "createdAt": "2025-06-18T06:47:59.885Z",
+      "expiresAt": "2025-06-19T06:47:59.885Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229290152",
+      "userId": "1",
+      "token": "token_1750229290152",
+      "createdAt": "2025-06-18T06:48:10.152Z",
+      "expiresAt": "2025-06-19T06:48:10.152Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229299648",
+      "userId": "1",
+      "token": "token_1750229299648",
+      "createdAt": "2025-06-18T06:48:19.648Z",
+      "expiresAt": "2025-06-19T06:48:19.648Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229304795",
+      "userId": "1",
+      "token": "token_1750229304795",
+      "createdAt": "2025-06-18T06:48:24.795Z",
+      "expiresAt": "2025-06-19T06:48:24.795Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229308258",
+      "userId": "1",
+      "token": "token_1750229308258",
+      "createdAt": "2025-06-18T06:48:28.258Z",
+      "expiresAt": "2025-06-19T06:48:28.258Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229312687",
+      "userId": "1",
+      "token": "token_1750229312687",
+      "createdAt": "2025-06-18T06:48:32.687Z",
+      "expiresAt": "2025-06-19T06:48:32.687Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229321007",
+      "userId": "1",
+      "token": "token_1750229321007",
+      "createdAt": "2025-06-18T06:48:41.007Z",
+      "expiresAt": "2025-06-19T06:48:41.007Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229386049",
+      "userId": "1",
+      "token": "token_1750229386049",
+      "createdAt": "2025-06-18T06:49:46.049Z",
+      "expiresAt": "2025-06-19T06:49:46.049Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229530918",
+      "userId": "1",
+      "token": "token_1750229530918",
+      "createdAt": "2025-06-18T06:52:10.918Z",
+      "expiresAt": "2025-06-19T06:52:10.918Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229561876",
+      "userId": "1",
+      "token": "token_1750229561876",
+      "createdAt": "2025-06-18T06:52:41.876Z",
+      "expiresAt": "2025-06-19T06:52:41.876Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229586726",
+      "userId": "1",
+      "token": "token_1750229586726",
+      "createdAt": "2025-06-18T06:53:06.726Z",
+      "expiresAt": "2025-06-19T06:53:06.726Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229589916",
+      "userId": "1",
+      "token": "token_1750229589916",
+      "createdAt": "2025-06-18T06:53:09.916Z",
+      "expiresAt": "2025-06-19T06:53:09.916Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229590108",
+      "userId": "1",
+      "token": "token_1750229590108",
+      "createdAt": "2025-06-18T06:53:10.108Z",
+      "expiresAt": "2025-06-19T06:53:10.108Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229592658",
+      "userId": "1",
+      "token": "token_1750229592658",
+      "createdAt": "2025-06-18T06:53:12.658Z",
+      "expiresAt": "2025-06-19T06:53:12.658Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229592819",
+      "userId": "1",
+      "token": "token_1750229592819",
+      "createdAt": "2025-06-18T06:53:12.819Z",
+      "expiresAt": "2025-06-19T06:53:12.819Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229640290",
+      "userId": "1",
+      "token": "token_1750229640290",
+      "createdAt": "2025-06-18T06:54:00.290Z",
+      "expiresAt": "2025-06-19T06:54:00.290Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229687674",
+      "userId": "1",
+      "token": "token_1750229687674",
+      "createdAt": "2025-06-18T06:54:47.674Z",
+      "expiresAt": "2025-06-19T06:54:47.674Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229702373",
+      "userId": "1",
+      "token": "token_1750229702373",
+      "createdAt": "2025-06-18T06:55:02.373Z",
+      "expiresAt": "2025-06-19T06:55:02.373Z",
+      "isActive": true
+    },
+    {
+      "id": "1750229847482",
+      "userId": "1",
+      "token": "token_1750229847482",
+      "createdAt": "2025-06-18T06:57:27.482Z",
+      "expiresAt": "2025-06-19T06:57:27.482Z",
+      "isActive": true
+    },
+    {
+      "id": "1750235301987",
+      "userId": "1",
+      "token": "token_1750235301987",
+      "createdAt": "2025-06-18T08:28:21.987Z",
+      "expiresAt": "2025-06-19T08:28:21.987Z",
+      "isActive": true
+    },
+    {
+      "id": "1750235826887",
+      "userId": "1",
+      "token": "token_1750235826887",
+      "createdAt": "2025-06-18T08:37:06.887Z",
+      "expiresAt": "2025-06-19T08:37:06.887Z",
+      "isActive": true
+    },
+    {
+      "id": "1750237159746",
+      "userId": "1",
+      "token": "token_1750237159746",
+      "createdAt": "2025-06-18T08:59:19.746Z",
+      "expiresAt": "2025-06-19T08:59:19.746Z",
+      "isActive": true
+    },
+    {
+      "id": "1750240047881",
+      "userId": "1",
+      "token": "token_1750240047881",
+      "createdAt": "2025-06-18T09:47:27.881Z",
+      "expiresAt": "2025-06-19T09:47:27.881Z",
+      "isActive": true
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "code": "DPWORLD",
+      "name": "DP World",
+      "logo": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "settings": {
+        "workingHours": {
+          "start": "09:00",
+          "end": "17:30"
+        },
+        "timezone": "Asia/Dubai",
+        "allowedLocations": [
+          {
+            "name": "DP World Head Office",
+            "latitude": 25.2048,
+            "longitude": 55.2708,
+            "radius": 100
+          }
+        ]
+      }
+    }
+  ],
+  "reports": [
+    {
+      "id": "1",
+      "userId": "1",
+      "type": "daily",
+      "date": "2024-12-20",
+      "totalHours": "8h 30m",
+      "checkInTime": "09:00:00",
+      "checkOutTime": "17:30:00",
+      "breaks": [
+        {
+          "start": "12:00:00",
+          "end": "13:00:00",
+          "duration": "1h 0m"
+        }
+      ],
+      "overtime": "0h 0m",
+      "status": "present"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "type": "weekly",
+      "weekStart": "2024-12-16",
+      "weekEnd": "2024-12-22",
+      "totalHours": "42h 30m",
+      "daysPresent": 5,
+      "daysAbsent": 0,
+      "overtime": "2h 30m",
+      "attendanceRate": 100
+    }
+  ]
+}
